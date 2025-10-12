@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B46C9B19-E04F-3A19-8178-264D26B7618C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>xwbtool</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\savie\Desktop\skids\Solstice-master\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">xwbtool.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">xwbtool</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\savie\Desktop\skids\Solstice-master\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">xwbtool.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">xwbtool</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-src\Audio;C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-src\Src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus /ZH:SHA_256 /Zc:lambda /Zc:templateScope</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>5104;5105;4365;4514;4571;4625;4626;4627;4710;4711;4774;4820;5026;5027;5039;5045;5262;5264</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SDLCheck>true</SDLCheck>
+      <SupportJustMyCode>false</SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_UNICODE;UNICODE;_WIN32_WINNT=0x0603;__PRIVATE_DEBUG__;__PRIVATE_BUILD__;__DEBUG__;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_UNICODE;UNICODE;_WIN32_WINNT=0x0603;__PRIVATE_DEBUG__;__PRIVATE_BUILD__;__DEBUG__;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-src\Audio;C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-src\Src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_UNICODE;UNICODE;_WIN32_WINNT=0x0603;__PRIVATE_DEBUG__;__PRIVATE_BUILD__;__DEBUG__;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <IncludePaths>C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-src\Audio;C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-src\Src;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>%(AdditionalOptions) /Wall /EHsc /GR /sdl /Zc:inline /fp:fast /permissive- /Zc:__cplusplus /JMC- /ZH:SHA_256 /Zc:preprocessor /wd5104 /wd5105 /Zc:lambda /Zc:templateScope /wd4365 /wd4514 /wd4571 /wd4625 /wd4626 /wd4627 /wd4710 /wd4711 /wd4774 /wd4820 /wd5026 /wd5027 /wd5039 /wd5045 /wd5262 /wd5264</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-src\Audio;C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-src\Src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>version.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <CETCompat>true</CETCompat>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/savie/Desktop/skids/Solstice-master/build/lib/Debug/xwbtool.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/savie/Desktop/skids/Solstice-master/build/bin/Debug/xwbtool.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Manifest>
+      <AdditionalManifestFiles>C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-src\xwbtool\settings.manifest;</AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-src\Audio;C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-src\Src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus /ZH:SHA_256 /Zc:lambda /Zc:templateScope</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <ControlFlowGuard>Guard</ControlFlowGuard>
+      <DisableSpecificWarnings>5104;5105;4365;4514;4571;4625;4626;4627;4710;4711;4774;4820;5026;5027;5039;5045;5262;5264</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <GuardEHContMetadata>true</GuardEHContMetadata>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SDLCheck>true</SDLCheck>
+      <SupportJustMyCode>false</SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_WIN32_WINNT=0x0603;__PRIVATE_DEBUG__;__PRIVATE_BUILD__;__DEBUG__;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_WIN32_WINNT=0x0603;__PRIVATE_DEBUG__;__PRIVATE_BUILD__;__DEBUG__;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-src\Audio;C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-src\Src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_WIN32_WINNT=0x0603;__PRIVATE_DEBUG__;__PRIVATE_BUILD__;__DEBUG__;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <IncludePaths>C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-src\Audio;C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-src\Src;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>%(AdditionalOptions) /Wall /EHsc /GR /guard:cf /guard:ehcont /sdl /Zc:inline /fp:fast /permissive- /Zc:__cplusplus /JMC- /ZH:SHA_256 /Zc:preprocessor /wd5104 /wd5105 /Zc:lambda /Zc:templateScope /wd4365 /wd4514 /wd4571 /wd4625 /wd4626 /wd4627 /wd4710 /wd4711 /wd4774 /wd4820 /wd5026 /wd5027 /wd5039 /wd5045 /wd5262 /wd5264</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-src\Audio;C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-src\Src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>version.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <CETCompat>true</CETCompat>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/savie/Desktop/skids/Solstice-master/build/lib/Release/xwbtool.lib</ImportLibrary>
+      <LinkGuardEHContMetadata>true</LinkGuardEHContMetadata>
+      <ProgramDataBaseFile>C:/Users/savie/Desktop/skids/Solstice-master/build/bin/Release/xwbtool.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Manifest>
+      <AdditionalManifestFiles>C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-src\xwbtool\settings.manifest;</AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-src\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/savie/Desktop/skids/Solstice-master -BC:/Users/savie/Desktop/skids/Solstice-master/build --check-stamp-file C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-4.0\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-src\build\CompilerAndLinker.cmake;C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-src\build\DirectXTK-config.cmake.in;C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-src\build\DirectXTK.pc.in;C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-src\build\JoinPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/savie/Desktop/skids/Solstice-master -BC:/Users/savie/Desktop/skids/Solstice-master/build --check-stamp-file C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-4.0\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-src\build\CompilerAndLinker.cmake;C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-src\build\DirectXTK-config.cmake.in;C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-src\build\DirectXTK.pc.in;C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-src\build\JoinPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <PropertyGroup>
+    <EnableUnitySupport>true</EnableUnitySupport>
+  </PropertyGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-build\CMakeFiles\xwbtool.dir\Unity\unity_0_cxx.cxx" IncludeInUnityFile="false" CustomUnityFile="true" UnityFilesDirectory="C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-build/CMakeFiles/xwbtool.dir/Unity" />
+    <ClCompile Include="C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-src\xwbtool\xwbtool.cpp" IncludeInUnityFile="true" CustomUnityFile="true" UnityFilesDirectory="C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-build/CMakeFiles/xwbtool.dir/Unity" />
+    <ResourceCompile Include="C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-src\xwbtool\xwbtool.rc" />
+    <ClInclude Include="C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-src\xwbtool\CmdLineHelpers.h" />
+    <ClCompile Include="C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-src\Audio\WAVFileReader.cpp" IncludeInUnityFile="true" CustomUnityFile="true" UnityFilesDirectory="C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-build/CMakeFiles/xwbtool.dir/Unity" />
+    <ClInclude Include="C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-src\Audio\WAVFileReader.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\savie\Desktop\skids\Solstice-master\build\ZERO_CHECK.vcxproj">
+      <Project>{CDC96925-F46C-3041-A58C-EB291FF9CBD7}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+  </ImportGroup>
+</Project>

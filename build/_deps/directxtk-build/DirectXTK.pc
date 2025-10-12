@@ -1,0 +1,11 @@
+prefix=C:/Program Files (x86)/Solstice
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: DirectXTK
+Description: DirectX Tool Kit for DirectX 11
+URL: https://go.microsoft.com/fwlink/?LinkId=248929
+Version: 1.9.2
+Requires:
+Cflags: -I${includedir}
+Libs: -lDirectXTK

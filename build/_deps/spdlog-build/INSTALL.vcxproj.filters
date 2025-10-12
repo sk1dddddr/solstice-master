@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\savie\Desktop\skids\Solstice-master\build\CMakeFiles\16375f89ccb0f3fc2ba70eccb8259070\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1B7DEED9-2204-3DBB-9841-F80012A9D484}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,23 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/savie/Desktop/skids/Solstice-master/build/cmake_install.cmake",
+		"C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/spdlog-build/cmake_install.cmake",
+		"C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/magic_enum-build/cmake_install.cmake",
+		"C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/glm-build/cmake_install.cmake",
+		"C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/glm-build/glm/cmake_install.cmake",
+		"C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/nlohmann_json-build/cmake_install.cmake",
+		"C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-build/cmake_install.cmake",
+		"C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-build/cmake_install.cmake",
+		"C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-build/test/cmake_install.cmake",
+		"C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-build/test/unit/cmake_install.cmake",
+		"C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-build/test/integration/cmake_install.cmake",
+		"C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-build/cryptopp/cmake_install.cmake",
+		"C:/Users/savie/Desktop/skids/Solstice-master/build/include/minhook/cmake_install.cmake",
+		"C:/Users/savie/Desktop/skids/Solstice-master/build/include/libhat/cmake_install.cmake",
+		"C:/Users/savie/Desktop/skids/Solstice-master/build/include/ImGui/cmake_install.cmake",
+		"C:/Users/savie/Desktop/skids/Solstice-master/build/include/Kiero/cmake_install.cmake",
+		"C:/Users/savie/Desktop/skids/Solstice-master/build/include/nes/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

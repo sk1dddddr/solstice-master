@@ -1,0 +1,14 @@
+# Target labels
+ spdlog-populate
+# Source files and their labels
+C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate
+C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/spdlog-subbuild/CMakeFiles/f0b3a74e09fb2a4f88f5433777a62744/spdlog-populate.rule
+C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/spdlog-subbuild/CMakeFiles/af042dc2652904efe8e89f45f10c75dc/spdlog-populate-complete.rule
+C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/spdlog-subbuild/CMakeFiles/6379b1e2e2d34a8546d967fcafd405fa/spdlog-populate-build.rule
+C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/spdlog-subbuild/CMakeFiles/6379b1e2e2d34a8546d967fcafd405fa/spdlog-populate-configure.rule
+C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/spdlog-subbuild/CMakeFiles/6379b1e2e2d34a8546d967fcafd405fa/spdlog-populate-download.rule
+C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/spdlog-subbuild/CMakeFiles/6379b1e2e2d34a8546d967fcafd405fa/spdlog-populate-install.rule
+C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/spdlog-subbuild/CMakeFiles/6379b1e2e2d34a8546d967fcafd405fa/spdlog-populate-mkdir.rule
+C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/spdlog-subbuild/CMakeFiles/6379b1e2e2d34a8546d967fcafd405fa/spdlog-populate-patch.rule
+C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/spdlog-subbuild/CMakeFiles/6379b1e2e2d34a8546d967fcafd405fa/spdlog-populate-test.rule
+C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/spdlog-subbuild/CMakeFiles/6379b1e2e2d34a8546d967fcafd405fa/spdlog-populate-update.rule

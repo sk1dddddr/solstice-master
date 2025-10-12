@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\glm-subbuild\CMakeFiles\169b534c21e69211a09280913d5c72ad\glm-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\glm-subbuild\CMakeFiles\169b534c21e69211a09280913d5c72ad\glm-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\glm-subbuild\CMakeFiles\169b534c21e69211a09280913d5c72ad\glm-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\glm-subbuild\CMakeFiles\169b534c21e69211a09280913d5c72ad\glm-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\glm-subbuild\CMakeFiles\169b534c21e69211a09280913d5c72ad\glm-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\glm-subbuild\CMakeFiles\169b534c21e69211a09280913d5c72ad\glm-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\glm-subbuild\CMakeFiles\169b534c21e69211a09280913d5c72ad\glm-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\glm-subbuild\CMakeFiles\169b534c21e69211a09280913d5c72ad\glm-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\glm-subbuild\CMakeFiles\9c39da549f42eb787af615cc4e36eaf0\glm-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\glm-subbuild\CMakeFiles\a3a1a2df2f1e176eddd8b064124d6b40\glm-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\glm-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\glm-subbuild\CMakeFiles\glm-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C0DD74A6-6BBD-379E-9496-D1E6BC251812}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,32 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeASMCompiler.cmake.in
+C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeASMInformation.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeCompilerIdDetection.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompiler.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeFindBinUtils.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestASMCompiler.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/Compiler/MSVC-ASM.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/ExternalProject/shared_internal_commands.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/FetchContent.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/FetchContent/CMakeLists.cmake.in
+C:/Program Files/CMake/share/cmake-4.0/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeASMLinkerInformation.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Linker/GNU.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Linker/Windows-ASM.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Linker/Windows-GNU-ASM.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Linker/Windows-GNU.cmake
+C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/4.0.0-rc4/CMakeASMCompiler.cmake
+C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-build/CMakeFiles/git-data/grabRef.cmake
+C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-src/.git/HEAD
+C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-src/.git/refs/heads/master
+C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-src/CMakeLists.txt
+C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-src/cmake/FasterBuild.cmake
+C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-src/cmake/GetCryptoppSources.cmake
+C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-src/cmake/GetGitRevisionDescription.cmake
+C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-src/cmake/GetGitRevisionDescription.cmake.in
+C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-src/cmake/ResetInitialCompilerOptions.cmake
+C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-src/cmake/cmake_minimum_required.cmake

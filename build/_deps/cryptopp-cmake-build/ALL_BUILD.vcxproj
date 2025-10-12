@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BD89FA9F-0B8B-3A7E-898B-2922A9A8F0F7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\cryptopp-cmake-src\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/savie/Desktop/skids/Solstice-master -BC:/Users/savie/Desktop/skids/Solstice-master/build --check-stamp-file C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeASMCompiler.cmake.in;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeASMInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeDetermineASMCompiler.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeTestASMCompiler.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-ASM.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.0\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeASMLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\GNU.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-ASM.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-GNU-ASM.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-GNU.cmake;C:\Users\savie\Desktop\skids\Solstice-master\build\CMakeFiles\4.0.0-rc4\CMakeASMCompiler.cmake;C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\cryptopp-cmake-build\CMakeFiles\git-data\grabRef.cmake;C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\cryptopp-cmake-src\.git\HEAD;C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\cryptopp-cmake-src\.git\refs\heads\master;C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\cryptopp-cmake-src\cmake\FasterBuild.cmake;C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\cryptopp-cmake-src\cmake\GetCryptoppSources.cmake;C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\cryptopp-cmake-src\cmake\GetGitRevisionDescription.cmake;C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\cryptopp-cmake-src\cmake\GetGitRevisionDescription.cmake.in;C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\cryptopp-cmake-src\cmake\ResetInitialCompilerOptions.cmake;C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\cryptopp-cmake-src\cmake\cmake_minimum_required.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\cryptopp-cmake-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/savie/Desktop/skids/Solstice-master -BC:/Users/savie/Desktop/skids/Solstice-master/build --check-stamp-file C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeASMCompiler.cmake.in;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeASMInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeDetermineASMCompiler.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeTestASMCompiler.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-ASM.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.0\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeASMLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\GNU.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-ASM.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-GNU-ASM.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-GNU.cmake;C:\Users\savie\Desktop\skids\Solstice-master\build\CMakeFiles\4.0.0-rc4\CMakeASMCompiler.cmake;C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\cryptopp-cmake-build\CMakeFiles\git-data\grabRef.cmake;C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\cryptopp-cmake-src\.git\HEAD;C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\cryptopp-cmake-src\.git\refs\heads\master;C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\cryptopp-cmake-src\cmake\FasterBuild.cmake;C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\cryptopp-cmake-src\cmake\GetCryptoppSources.cmake;C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\cryptopp-cmake-src\cmake\GetGitRevisionDescription.cmake;C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\cryptopp-cmake-src\cmake\GetGitRevisionDescription.cmake.in;C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\cryptopp-cmake-src\cmake\ResetInitialCompilerOptions.cmake;C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\cryptopp-cmake-src\cmake\cmake_minimum_required.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\cryptopp-cmake-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\savie\Desktop\skids\Solstice-master\build\ZERO_CHECK.vcxproj">
+      <Project>{CDC96925-F46C-3041-A58C-EB291FF9CBD7}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\cryptopp-cmake-build\cryptopp\cryptest.vcxproj">
+      <Project>{6FD3722E-76B5-354A-B604-000BD2F174AE}</Project>
+      <Name>cryptest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\cryptopp-cmake-build\cryptopp\cryptopp.vcxproj">
+      <Project>{166E3575-C29F-3607-B352-D7E744882977}</Project>
+      <Name>cryptopp</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+  </ImportGroup>
+</Project>

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-subbuild/CMakeFiles/cryptopp-populate"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-subbuild/CMakeFiles/2f3ca25ac3f14e0c538e1ca9f786a7a0/cryptopp-populate.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-subbuild/CMakeFiles/0f6ddd298ea1e0376e54de9035d8b2df/cryptopp-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-subbuild/CMakeFiles/6408428442b561d4f18d56c683c4a697/cryptopp-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-subbuild/CMakeFiles/6408428442b561d4f18d56c683c4a697/cryptopp-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-subbuild/CMakeFiles/6408428442b561d4f18d56c683c4a697/cryptopp-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-subbuild/CMakeFiles/6408428442b561d4f18d56c683c4a697/cryptopp-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-subbuild/CMakeFiles/6408428442b561d4f18d56c683c4a697/cryptopp-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-subbuild/CMakeFiles/6408428442b561d4f18d56c683c4a697/cryptopp-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-subbuild/CMakeFiles/6408428442b561d4f18d56c683c4a697/cryptopp-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-subbuild/CMakeFiles/6408428442b561d4f18d56c683c4a697/cryptopp-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"cryptopp-populate"
+		],
+		"name" : "cryptopp-populate"
+	}
+}

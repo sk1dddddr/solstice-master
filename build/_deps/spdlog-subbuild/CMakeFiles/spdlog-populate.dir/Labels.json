@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/spdlog-subbuild/CMakeFiles/f0b3a74e09fb2a4f88f5433777a62744/spdlog-populate.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/spdlog-subbuild/CMakeFiles/af042dc2652904efe8e89f45f10c75dc/spdlog-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/spdlog-subbuild/CMakeFiles/6379b1e2e2d34a8546d967fcafd405fa/spdlog-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/spdlog-subbuild/CMakeFiles/6379b1e2e2d34a8546d967fcafd405fa/spdlog-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/spdlog-subbuild/CMakeFiles/6379b1e2e2d34a8546d967fcafd405fa/spdlog-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/spdlog-subbuild/CMakeFiles/6379b1e2e2d34a8546d967fcafd405fa/spdlog-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/spdlog-subbuild/CMakeFiles/6379b1e2e2d34a8546d967fcafd405fa/spdlog-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/spdlog-subbuild/CMakeFiles/6379b1e2e2d34a8546d967fcafd405fa/spdlog-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/spdlog-subbuild/CMakeFiles/6379b1e2e2d34a8546d967fcafd405fa/spdlog-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/spdlog-subbuild/CMakeFiles/6379b1e2e2d34a8546d967fcafd405fa/spdlog-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"spdlog-populate"
+		],
+		"name" : "spdlog-populate"
+	}
+}

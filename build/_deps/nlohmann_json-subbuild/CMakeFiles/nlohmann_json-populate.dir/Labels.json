@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/nlohmann_json-subbuild/CMakeFiles/nlohmann_json-populate"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/nlohmann_json-subbuild/CMakeFiles/ff3f4449585d854e68095a22d8f139a3/nlohmann_json-populate.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/nlohmann_json-subbuild/CMakeFiles/d5fd200012b91f1bcb6832f4a9a55021/nlohmann_json-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/nlohmann_json-subbuild/CMakeFiles/dd99c4e5345b45971429603b44ad54df/nlohmann_json-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/nlohmann_json-subbuild/CMakeFiles/dd99c4e5345b45971429603b44ad54df/nlohmann_json-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/nlohmann_json-subbuild/CMakeFiles/dd99c4e5345b45971429603b44ad54df/nlohmann_json-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/nlohmann_json-subbuild/CMakeFiles/dd99c4e5345b45971429603b44ad54df/nlohmann_json-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/nlohmann_json-subbuild/CMakeFiles/dd99c4e5345b45971429603b44ad54df/nlohmann_json-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/nlohmann_json-subbuild/CMakeFiles/dd99c4e5345b45971429603b44ad54df/nlohmann_json-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/nlohmann_json-subbuild/CMakeFiles/dd99c4e5345b45971429603b44ad54df/nlohmann_json-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/nlohmann_json-subbuild/CMakeFiles/dd99c4e5345b45971429603b44ad54df/nlohmann_json-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"nlohmann_json-populate"
+		],
+		"name" : "nlohmann_json-populate"
+	}
+}

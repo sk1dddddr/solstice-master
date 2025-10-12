@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.0/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+C:/Program Files/CMake/share/cmake-4.0/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/savie/Desktop/skids/Solstice-master/include/minhook/CMakeLists.txt
+C:/Users/savie/Desktop/skids/Solstice-master/include/minhook/cmake/minhook-config.cmake.in

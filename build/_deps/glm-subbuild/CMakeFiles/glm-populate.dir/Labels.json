@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/glm-subbuild/CMakeFiles/glm-populate"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/glm-subbuild/CMakeFiles/a3a1a2df2f1e176eddd8b064124d6b40/glm-populate.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/glm-subbuild/CMakeFiles/9c39da549f42eb787af615cc4e36eaf0/glm-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/glm-subbuild/CMakeFiles/169b534c21e69211a09280913d5c72ad/glm-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/glm-subbuild/CMakeFiles/169b534c21e69211a09280913d5c72ad/glm-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/glm-subbuild/CMakeFiles/169b534c21e69211a09280913d5c72ad/glm-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/glm-subbuild/CMakeFiles/169b534c21e69211a09280913d5c72ad/glm-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/glm-subbuild/CMakeFiles/169b534c21e69211a09280913d5c72ad/glm-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/glm-subbuild/CMakeFiles/169b534c21e69211a09280913d5c72ad/glm-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/glm-subbuild/CMakeFiles/169b534c21e69211a09280913d5c72ad/glm-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/glm-subbuild/CMakeFiles/169b534c21e69211a09280913d5c72ad/glm-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glm-populate"
+		],
+		"name" : "glm-populate"
+	}
+}

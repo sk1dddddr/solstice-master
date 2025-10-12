@@ -1,0 +1,24 @@
+^C:\USERS\SAVIE\DESKTOP\SKIDS\SOLSTICE-MASTER\BUILD\_DEPS\DIRECTXTK-SRC\SRC\SHADERS\COMPILESHADERS.CMD
+setlocal
+cd C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-src\Src\Shaders
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env CompileShadersOutput="C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-build/Shaders/Compiled" "LegacyShaderCompiler=C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/fxc.exe" CompileShaders.cmd > C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-build/Shaders/Compiled/compileshaders.log
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SAVIE\DESKTOP\SKIDS\SOLSTICE-MASTER\BUILD\_DEPS\DIRECTXTK-SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/savie/Desktop/skids/Solstice-master -BC:/Users/savie/Desktop/skids/Solstice-master/build --check-stamp-file C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

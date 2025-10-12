@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\cryptopp-subbuild\CMakeFiles\2f3ca25ac3f14e0c538e1ca9f786a7a0\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E1999606-FC56-379A-8208-0BD07D4F7903}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

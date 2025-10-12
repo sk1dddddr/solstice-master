@@ -1,0 +1,150 @@
+^C:\USERS\SAVIE\DESKTOP\SKIDS\SOLSTICE-MASTER\BUILD\_DEPS\DIRECTXTK-SUBBUILD\CMAKEFILES\63CBA6318866D0375471D6049F9F9213\DIRECTXTK-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-subbuild/directxtk-populate-prefix/tmp/directxtk-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-subbuild/directxtk-populate-prefix/src/directxtk-populate-stamp/Debug/directxtk-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SAVIE\DESKTOP\SKIDS\SOLSTICE-MASTER\BUILD\_DEPS\DIRECTXTK-SUBBUILD\CMAKEFILES\63CBA6318866D0375471D6049F9F9213\DIRECTXTK-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\savie\Desktop\skids\Solstice-master\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-subbuild/directxtk-populate-prefix/tmp/directxtk-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-subbuild/directxtk-populate-prefix/src/directxtk-populate-stamp/Debug/directxtk-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SAVIE\DESKTOP\SKIDS\SOLSTICE-MASTER\BUILD\_DEPS\DIRECTXTK-SUBBUILD\CMAKEFILES\63CBA6318866D0375471D6049F9F9213\DIRECTXTK-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-subbuild/directxtk-populate-prefix/tmp/directxtk-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SAVIE\DESKTOP\SKIDS\SOLSTICE-MASTER\BUILD\_DEPS\DIRECTXTK-SUBBUILD\CMAKEFILES\63CBA6318866D0375471D6049F9F9213\DIRECTXTK-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-subbuild/directxtk-populate-prefix/src/directxtk-populate-stamp/Debug/directxtk-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SAVIE\DESKTOP\SKIDS\SOLSTICE-MASTER\BUILD\_DEPS\DIRECTXTK-SUBBUILD\CMAKEFILES\63CBA6318866D0375471D6049F9F9213\DIRECTXTK-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-subbuild/directxtk-populate-prefix/src/directxtk-populate-stamp/Debug/directxtk-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SAVIE\DESKTOP\SKIDS\SOLSTICE-MASTER\BUILD\_DEPS\DIRECTXTK-SUBBUILD\CMAKEFILES\63CBA6318866D0375471D6049F9F9213\DIRECTXTK-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-subbuild/directxtk-populate-prefix/src/directxtk-populate-stamp/Debug/directxtk-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SAVIE\DESKTOP\SKIDS\SOLSTICE-MASTER\BUILD\_DEPS\DIRECTXTK-SUBBUILD\CMAKEFILES\63CBA6318866D0375471D6049F9F9213\DIRECTXTK-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-subbuild/directxtk-populate-prefix/src/directxtk-populate-stamp/Debug/directxtk-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SAVIE\DESKTOP\SKIDS\SOLSTICE-MASTER\BUILD\_DEPS\DIRECTXTK-SUBBUILD\CMAKEFILES\63CBA6318866D0375471D6049F9F9213\DIRECTXTK-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\directxtk-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-subbuild/directxtk-populate-prefix/src/directxtk-populate-stamp/Debug/directxtk-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SAVIE\DESKTOP\SKIDS\SOLSTICE-MASTER\BUILD\_DEPS\DIRECTXTK-SUBBUILD\CMAKEFILES\49E583D43A4108F06B75DC11AA1C94D5\DIRECTXTK-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-subbuild/CMakeFiles/Debug/directxtk-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-subbuild/directxtk-populate-prefix/src/directxtk-populate-stamp/Debug/directxtk-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SAVIE\DESKTOP\SKIDS\SOLSTICE-MASTER\BUILD\_DEPS\DIRECTXTK-SUBBUILD\CMAKEFILES\96B3EB442CC4F3B3317908DDAA34FC0B\DIRECTXTK-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SAVIE\DESKTOP\SKIDS\SOLSTICE-MASTER\BUILD\_DEPS\DIRECTXTK-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-subbuild -BC:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-subbuild --check-stamp-file C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

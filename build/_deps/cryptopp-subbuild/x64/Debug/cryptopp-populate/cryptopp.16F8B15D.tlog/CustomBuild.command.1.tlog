@@ -1,0 +1,150 @@
+^C:\USERS\SAVIE\DESKTOP\SKIDS\SOLSTICE-MASTER\BUILD\_DEPS\CRYPTOPP-SUBBUILD\CMAKEFILES\6408428442B561D4F18D56C683C4A697\CRYPTOPP-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-subbuild/cryptopp-populate-prefix/tmp/cryptopp-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-subbuild/cryptopp-populate-prefix/src/cryptopp-populate-stamp/Debug/cryptopp-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SAVIE\DESKTOP\SKIDS\SOLSTICE-MASTER\BUILD\_DEPS\CRYPTOPP-SUBBUILD\CMAKEFILES\6408428442B561D4F18D56C683C4A697\CRYPTOPP-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\cryptopp-cmake-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-subbuild/cryptopp-populate-prefix/tmp/cryptopp-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-subbuild/cryptopp-populate-prefix/src/cryptopp-populate-stamp/Debug/cryptopp-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SAVIE\DESKTOP\SKIDS\SOLSTICE-MASTER\BUILD\_DEPS\CRYPTOPP-SUBBUILD\CMAKEFILES\6408428442B561D4F18D56C683C4A697\CRYPTOPP-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\cryptopp-cmake-build\cryptopp
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-subbuild/cryptopp-populate-prefix/tmp/cryptopp-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SAVIE\DESKTOP\SKIDS\SOLSTICE-MASTER\BUILD\_DEPS\CRYPTOPP-SUBBUILD\CMAKEFILES\6408428442B561D4F18D56C683C4A697\CRYPTOPP-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-subbuild/cryptopp-populate-prefix/src/cryptopp-populate-stamp/Debug/cryptopp-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SAVIE\DESKTOP\SKIDS\SOLSTICE-MASTER\BUILD\_DEPS\CRYPTOPP-SUBBUILD\CMAKEFILES\6408428442B561D4F18D56C683C4A697\CRYPTOPP-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\cryptopp-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-subbuild/cryptopp-populate-prefix/src/cryptopp-populate-stamp/Debug/cryptopp-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SAVIE\DESKTOP\SKIDS\SOLSTICE-MASTER\BUILD\_DEPS\CRYPTOPP-SUBBUILD\CMAKEFILES\6408428442B561D4F18D56C683C4A697\CRYPTOPP-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\cryptopp-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-subbuild/cryptopp-populate-prefix/src/cryptopp-populate-stamp/Debug/cryptopp-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SAVIE\DESKTOP\SKIDS\SOLSTICE-MASTER\BUILD\_DEPS\CRYPTOPP-SUBBUILD\CMAKEFILES\6408428442B561D4F18D56C683C4A697\CRYPTOPP-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\cryptopp-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-subbuild/cryptopp-populate-prefix/src/cryptopp-populate-stamp/Debug/cryptopp-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SAVIE\DESKTOP\SKIDS\SOLSTICE-MASTER\BUILD\_DEPS\CRYPTOPP-SUBBUILD\CMAKEFILES\6408428442B561D4F18D56C683C4A697\CRYPTOPP-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\cryptopp-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-subbuild/cryptopp-populate-prefix/src/cryptopp-populate-stamp/Debug/cryptopp-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SAVIE\DESKTOP\SKIDS\SOLSTICE-MASTER\BUILD\_DEPS\CRYPTOPP-SUBBUILD\CMAKEFILES\0F6DDD298EA1E0376E54DE9035D8B2DF\CRYPTOPP-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-subbuild/CMakeFiles/Debug/cryptopp-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-subbuild/cryptopp-populate-prefix/src/cryptopp-populate-stamp/Debug/cryptopp-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SAVIE\DESKTOP\SKIDS\SOLSTICE-MASTER\BUILD\_DEPS\CRYPTOPP-SUBBUILD\CMAKEFILES\2F3CA25AC3F14E0C538E1CA9F786A7A0\CRYPTOPP-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SAVIE\DESKTOP\SKIDS\SOLSTICE-MASTER\BUILD\_DEPS\CRYPTOPP-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-subbuild -BC:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-subbuild --check-stamp-file C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\magic_enum-subbuild\CMakeFiles\922a662ce9a155a403b3c2e4c976f4ff\magic_enum-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\magic_enum-subbuild\CMakeFiles\922a662ce9a155a403b3c2e4c976f4ff\magic_enum-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\magic_enum-subbuild\CMakeFiles\922a662ce9a155a403b3c2e4c976f4ff\magic_enum-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\magic_enum-subbuild\CMakeFiles\922a662ce9a155a403b3c2e4c976f4ff\magic_enum-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\magic_enum-subbuild\CMakeFiles\922a662ce9a155a403b3c2e4c976f4ff\magic_enum-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\magic_enum-subbuild\CMakeFiles\922a662ce9a155a403b3c2e4c976f4ff\magic_enum-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\magic_enum-subbuild\CMakeFiles\922a662ce9a155a403b3c2e4c976f4ff\magic_enum-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\magic_enum-subbuild\CMakeFiles\922a662ce9a155a403b3c2e4c976f4ff\magic_enum-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\magic_enum-subbuild\CMakeFiles\db836a109834316af242c028f3a2f525\magic_enum-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\magic_enum-subbuild\CMakeFiles\aea8a6e51785c2065fc326db9f5200ab\magic_enum-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\magic_enum-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\magic_enum-subbuild\CMakeFiles\magic_enum-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0442C7BF-DD55-31DD-9C24-D4F48C31FC84}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

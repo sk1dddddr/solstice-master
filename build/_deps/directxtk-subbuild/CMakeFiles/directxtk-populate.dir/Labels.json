@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-subbuild/CMakeFiles/directxtk-populate"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-subbuild/CMakeFiles/96b3eb442cc4f3b3317908ddaa34fc0b/directxtk-populate.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-subbuild/CMakeFiles/49e583d43a4108f06b75dc11aa1c94d5/directxtk-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-subbuild/CMakeFiles/63cba6318866d0375471d6049f9f9213/directxtk-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-subbuild/CMakeFiles/63cba6318866d0375471d6049f9f9213/directxtk-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-subbuild/CMakeFiles/63cba6318866d0375471d6049f9f9213/directxtk-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-subbuild/CMakeFiles/63cba6318866d0375471d6049f9f9213/directxtk-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-subbuild/CMakeFiles/63cba6318866d0375471d6049f9f9213/directxtk-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-subbuild/CMakeFiles/63cba6318866d0375471d6049f9f9213/directxtk-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-subbuild/CMakeFiles/63cba6318866d0375471d6049f9f9213/directxtk-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-subbuild/CMakeFiles/63cba6318866d0375471d6049f9f9213/directxtk-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"directxtk-populate"
+		],
+		"name" : "directxtk-populate"
+	}
+}

@@ -1,0 +1,1840 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+      Build started 12/10/2025 22:32:15.
+      
+      Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\4.0.0-rc4\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\4.0.0-rc4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\4.0.0-rc4\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.87
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/4.0.0-rc4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+      Build started 12/10/2025 22:32:16.
+      
+      Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\4.0.0-rc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\4.0.0-rc4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\4.0.0-rc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.45
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/4.0.0-rc4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-7sbeno"
+      binary: "C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-7sbeno"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/savie/Desktop/skids/Solstice-master/build/CPM_modules;"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-7sbeno'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_28ce6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 12/10/2025 22:32:17.
+        
+        Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7sbeno\\cmTC_28ce6.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_28ce6.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7sbeno\\Debug\\".
+          Creating directory "cmTC_28ce6.dir\\Debug\\cmTC_28ce6.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_28ce6.dir\\Debug\\cmTC_28ce6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_28ce6.dir\\Debug\\cmTC_28ce6.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_28ce6.dir\\Debug\\\\" /Fd"cmTC_28ce6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_28ce6.dir\\Debug\\\\" /Fd"cmTC_28ce6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7sbeno\\Debug\\cmTC_28ce6.exe" /INCREMENTAL /ILK:"cmTC_28ce6.dir\\Debug\\cmTC_28ce6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-7sbeno/Debug/cmTC_28ce6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-7sbeno/Debug/cmTC_28ce6.lib" /MACHINE:X64  /machine:x64 cmTC_28ce6.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_28ce6.vcxproj -> C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7sbeno\\Debug\\cmTC_28ce6.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_28ce6.dir\\Debug\\cmTC_28ce6.tlog\\unsuccessfulbuild".
+          Touching "cmTC_28ce6.dir\\Debug\\cmTC_28ce6.tlog\\cmTC_28ce6.lastbuildstate".
+        Done Building Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7sbeno\\cmTC_28ce6.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.43
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:264 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-cx9q74"
+      binary: "C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-cx9q74"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/savie/Desktop/skids/Solstice-master/build/CPM_modules;"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-cx9q74'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_11922.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 12/10/2025 22:32:18.
+        
+        Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cx9q74\\cmTC_11922.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_11922.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cx9q74\\Debug\\".
+          Creating directory "cmTC_11922.dir\\Debug\\cmTC_11922.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_11922.dir\\Debug\\cmTC_11922.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_11922.dir\\Debug\\cmTC_11922.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_11922.dir\\Debug\\\\" /Fd"cmTC_11922.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_11922.dir\\Debug\\\\" /Fd"cmTC_11922.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cx9q74\\Debug\\cmTC_11922.exe" /INCREMENTAL /ILK:"cmTC_11922.dir\\Debug\\cmTC_11922.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-cx9q74/Debug/cmTC_11922.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-cx9q74/Debug/cmTC_11922.lib" /MACHINE:X64  /machine:x64 cmTC_11922.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_11922.vcxproj -> C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cx9q74\\Debug\\cmTC_11922.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_11922.dir\\Debug\\cmTC_11922.tlog\\unsuccessfulbuild".
+          Touching "cmTC_11922.dir\\Debug\\cmTC_11922.tlog\\cmTC_11922.lastbuildstate".
+        Done Building Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cx9q74\\cmTC_11922.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.43
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:264 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:97 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "build/_deps/spdlog-src/CMakeLists.txt:133 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-0r2wpu"
+      binary: "C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-0r2wpu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/savie/Desktop/skids/Solstice-master/build/CPM_modules;"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-0r2wpu'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2f3d1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 12/10/2025 22:32:34.
+        
+        Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0r2wpu\\cmTC_2f3d1.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_2f3d1.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0r2wpu\\Debug\\".
+          Creating directory "cmTC_2f3d1.dir\\Debug\\cmTC_2f3d1.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_2f3d1.dir\\Debug\\cmTC_2f3d1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_2f3d1.dir\\Debug\\cmTC_2f3d1.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2f3d1.dir\\Debug\\\\" /Fd"cmTC_2f3d1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0r2wpu\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2f3d1.dir\\Debug\\\\" /Fd"cmTC_2f3d1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0r2wpu\\src.c"
+          src.c
+        C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0r2wpu\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0r2wpu\\cmTC_2f3d1.vcxproj]
+        Done Building Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0r2wpu\\cmTC_2f3d1.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0r2wpu\\cmTC_2f3d1.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0r2wpu\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0r2wpu\\cmTC_2f3d1.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.31
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckLibraryExists.cmake:112 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "build/_deps/spdlog-src/CMakeLists.txt:133 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-xjk5px"
+      binary: "C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-xjk5px"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/savie/Desktop/skids/Solstice-master/build/CPM_modules;"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-xjk5px'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d6060.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 12/10/2025 22:32:35.
+        
+        Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xjk5px\\cmTC_d6060.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_d6060.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xjk5px\\Debug\\".
+          Creating directory "cmTC_d6060.dir\\Debug\\cmTC_d6060.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d6060.dir\\Debug\\cmTC_d6060.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d6060.dir\\Debug\\cmTC_d6060.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d6060.dir\\Debug\\\\" /Fd"cmTC_d6060.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xjk5px\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d6060.dir\\Debug\\\\" /Fd"cmTC_d6060.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xjk5px\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xjk5px\\Debug\\cmTC_d6060.exe" /INCREMENTAL /ILK:"cmTC_d6060.dir\\Debug\\cmTC_d6060.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-xjk5px/Debug/cmTC_d6060.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-xjk5px/Debug/cmTC_d6060.lib" /MACHINE:X64  /machine:x64 cmTC_d6060.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xjk5px\\cmTC_d6060.vcxproj]
+        Done Building Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xjk5px\\cmTC_d6060.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xjk5px\\cmTC_d6060.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xjk5px\\cmTC_d6060.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.34
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckLibraryExists.cmake:112 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "build/_deps/spdlog-src/CMakeLists.txt:133 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-c0c9pr"
+      binary: "C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-c0c9pr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/savie/Desktop/skids/Solstice-master/build/CPM_modules;"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-c0c9pr'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1e375.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 12/10/2025 22:32:35.
+        
+        Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c0c9pr\\cmTC_1e375.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_1e375.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c0c9pr\\Debug\\".
+          Creating directory "cmTC_1e375.dir\\Debug\\cmTC_1e375.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_1e375.dir\\Debug\\cmTC_1e375.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_1e375.dir\\Debug\\cmTC_1e375.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1e375.dir\\Debug\\\\" /Fd"cmTC_1e375.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c0c9pr\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1e375.dir\\Debug\\\\" /Fd"cmTC_1e375.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c0c9pr\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c0c9pr\\Debug\\cmTC_1e375.exe" /INCREMENTAL /ILK:"cmTC_1e375.dir\\Debug\\cmTC_1e375.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-c0c9pr/Debug/cmTC_1e375.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-c0c9pr/Debug/cmTC_1e375.lib" /MACHINE:X64  /machine:x64 cmTC_1e375.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c0c9pr\\cmTC_1e375.vcxproj]
+        Done Building Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c0c9pr\\cmTC_1e375.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c0c9pr\\cmTC_1e375.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c0c9pr\\cmTC_1e375.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.33
+        
+      exitCode: 1
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "build/_deps/cryptopp-cmake-src/CMakeLists.txt:53 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      cl : Command line warning D9002 : ignoring unknown option '--version'
+      cl : Command line error D8003 : missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "build/_deps/cryptopp-cmake-src/CMakeLists.txt:53 (project)"
+    message: |
+      Checking whether the ASM compiler is AppleClang using "--version" did not match "(Apple (clang|LLVM) version)":
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      cl : Command line warning D9002 : ignoring unknown option '--version'
+      cl : Command line error D8003 : missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "build/_deps/cryptopp-cmake-src/CMakeLists.txt:53 (project)"
+    message: |
+      Checking whether the ASM compiler is Clang using "--version" did not match "(clang version)":
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      cl : Command line warning D9002 : ignoring unknown option '--version'
+      cl : Command line error D8003 : missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "build/_deps/cryptopp-cmake-src/CMakeLists.txt:53 (project)"
+    message: |
+      Checking whether the ASM compiler is ARMClang using "--version" did not match "armclang":
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      cl : Command line warning D9002 : ignoring unknown option '--version'
+      cl : Command line error D8003 : missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "build/_deps/cryptopp-cmake-src/CMakeLists.txt:53 (project)"
+    message: |
+      Checking whether the ASM compiler is OrangeC using "--version" did not match "occ \\(OrangeC\\) Version":
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      cl : Command line warning D9002 : ignoring unknown option '--version'
+      cl : Command line error D8003 : missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "build/_deps/cryptopp-cmake-src/CMakeLists.txt:53 (project)"
+    message: |
+      Checking whether the ASM compiler is HP using "-V" did not match "HP C":
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      cl : Command line error D8004 : '/V' requires an argument
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "build/_deps/cryptopp-cmake-src/CMakeLists.txt:53 (project)"
+    message: |
+      Checking whether the ASM compiler is Intel using "--version" did not match "(ICC)":
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      cl : Command line warning D9002 : ignoring unknown option '--version'
+      cl : Command line error D8003 : missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "build/_deps/cryptopp-cmake-src/CMakeLists.txt:53 (project)"
+    message: |
+      Checking whether the ASM compiler is IntelLLVM using "--version" did not match "(Intel[^
+      ]+oneAPI)":
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      cl : Command line warning D9002 : ignoring unknown option '--version'
+      cl : Command line error D8003 : missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "build/_deps/cryptopp-cmake-src/CMakeLists.txt:53 (project)"
+    message: |
+      Checking whether the ASM compiler is SunPro using "-V" did not match "Sun C":
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      cl : Command line error D8004 : '/V' requires an argument
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "build/_deps/cryptopp-cmake-src/CMakeLists.txt:53 (project)"
+    message: |
+      Checking whether the ASM compiler is XL using "-qversion" did not match "XL C":
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      cl : Command line warning D9002 : ignoring unknown option '-qversion'
+      cl : Command line error D8003 : missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1230 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "build/_deps/cryptopp-cmake-src/CMakeLists.txt:53 (project)"
+    message: |
+      Checking whether the ASM compiler is MSVC using "-?" matched "Microsoft":
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+                               C/C++ COMPILER OPTIONS
+      
+      
+                                    -OPTIMIZATION-
+      
+      /O1 maximum optimizations (favor space) /O2 maximum optimizations (favor speed)
+      /Ob<n> inline expansion (default n=0)   /Od disable optimizations (default)
+      /Og enable global optimization          /Oi[-] enable intrinsic functions
+      /Os favor code space                    /Ot favor code speed
+      /Ox optimizations (favor speed)         
+      /favor:<blend|AMD64|INTEL64|ATOM> select processor to optimize for, one of:
+          blend - a combination of optimizations for several different x64 processors
+          AMD64 - 64-bit AMD processors
+          INTEL64 - Intel(R)64 architecture processors
+          ATOM - Intel(R) Atom(TM) processors
+      
+                                   -CODE GENERATION-
+      
+      /Gu[-] ensure distinct functions have distinct addresses
+      /Gw[-] separate global variables for linker
+      /GF enable read-only string pooling     /Gy[-] separate functions for linker
+      /GS[-] enable security checks           /GR[-] enable C++ RTTI
+      /guard:cf[-] enable CFG (control flow guard)
+      /guard:ehcont[-] enable EH continuation metadata (CET)
+      /EHs enable C++ EH (no SEH exceptions)  /EHa enable C++ EH (w/ SEH exceptions)
+      /EHc extern "C" defaults to nothrow     
+      /EHr always generate noexcept runtime termination checks
+      /fp:<contract|except[-]|fast|precise|strict> choose floating-point model:
+          contract - consider floating-point contractions when generating code
+          except[-] - consider floating-point exceptions when generating code
+          fast - "fast" floating-point model; results are less predictable
+          precise - "precise" floating-point model; results are predictable
+          strict - "strict" floating-point model (implies /fp:except)
+      /Qfast_transcendentals generate inline FP intrinsics even with /fp:except
+      /Qspectre[-] enable mitigations for CVE 2017-5753
+      /Qpar[-] enable parallel code generation
+      /Qpar-report:1 auto-parallelizer diagnostic; indicate parallelized loops
+      /Qpar-report:2 auto-parallelizer diagnostic; indicate loops not parallelized
+      /Qvec-report:1 auto-vectorizer diagnostic; indicate vectorized loops
+      /Qvec-report:2 auto-vectorizer diagnostic; indicate loops not vectorized
+      /GL[-] enable link-time code generation 
+      /volatile:<iso|ms> choose volatile model:
+          iso - Acquire/release semantics not guaranteed on volatile accesses
+          ms  - Acquire/release semantics guaranteed on volatile accesses
+      /GA optimize for Windows Application    /Ge force stack checking for all funcs
+      /Gs[num] control stack checking calls   /Gh enable _penter function call
+      /GH enable _pexit function call         /GT generate fiber-safe TLS accesses
+      /RTC1 Enable fast checks (/RTCsu)       /RTCc Convert to smaller type checks
+      /RTCs Stack Frame runtime checking      /RTCu Uninitialized local usage checks
+      /clr[:option] compile for common language runtime, where option is:
+          pure : produce IL-only output file (no native executable code)
+          safe : produce IL-only verifiable output file
+          netcore : produce assemblies targeting .NET Core runtime
+          noAssembly : do not produce an assembly
+          nostdlib : ignore the system .NET framework directory when searching for assemblies
+          nostdimport : do not import any required assemblies implicitly
+          initialAppDomain : enable initial AppDomain behavior of Visual C++ 2002
+          implicitKeepAlive- : turn off implicit emission of System::GC::KeepAlive(this)
+          char_t- : turn off metadata support for char8_t, char16_t and char32_t
+          ECMAParamArray : use rules specified in ECMA-372/14.6 for overloads with parameter arrays (implied by /clr)
+          ECMAParamArray- : use new rules for overloads with parameter arrays (implied by /clr:netcore)
+      /fsanitize=address Enable address sanitizer codegen
+      /homeparams Force parameters passed in registers to be written to the stack
+      /GZ Enable stack checks (/RTCs)         /Gv __vectorcall calling convention
+      /arch:<SSE2|SSE4.2|AVX|AVX2|AVX512|AVX10.x> minimum CPU architecture requirements, one of:
+         SSE2 - (default) enable use of instructions available with SSE2-enabled CPUs
+         SSE4.2 - enable use of instructions available with SSE 4.2-enabled CPUs
+         AVX - enable use of instructions available with AVX-enabled CPUs
+         AVX2 - enable use of instructions available with AVX2-enabled CPUs
+         AVX512 - enable use of instructions available with AVX-512-enabled CPUs
+         AVX10.x - enable use of instructions available with AVX10.x-enabled CPUs. Valid values of x are 1
+      /QIntel-jcc-erratum enable mitigations for Intel JCC erratum
+      /Qspectre-load Enable spectre mitigations for all instructions which load memory
+      /Qspectre-load-cf Enable spectre mitigations for all control-flow instructions which load memory
+      /Qspectre-jmp[-] Enable spectre mitigations for unconditional jump instructions
+      /fpcvt:<IA|BC> FP to unsigned integer conversion compatibility
+         IA - results compatible with VCVTTSD2USI instruction
+         BC - results compatible with VS2017 and earlier compiler
+      /jumptablerdata Place jump tables for switch case statements in .rdata section
+      /vlen=<256|512> Choose vector length of either 256 or 512 for automatic code-generation
+      /vlen Choose default vector length based on /arch setting
+      
+                                    -OUTPUT FILES-
+      
+      /Fa[file] name assembly listing file    /FA[scu] configure assembly listing
+      /Fd[file] name .PDB file                /Fe<file> name executable file
+      /Fm[file] name map file                 /Fo<file> name object file
+      /Fp<file> name precompiled header file  /Fr[file] name source browser file
+      /FR[file] name extended .SBR file       /Fi[file] name preprocessed file
+      /Fd: <file> name .PDB file              /Fe: <file> name executable file
+      /Fm: <file> name map file               /Fo: <file> name object file
+      /Fp: <file> name .PCH file              /FR: <file> name extended .SBR file
+      /Fi: <file> name preprocessed file      
+      /Ft<dir> location of the header files generated for #import
+      /doc[file] process XML documentation comments and optionally name the .xdc file
+      
+                                    -PREPROCESSOR-
+      
+      /AI<dir> add to assembly search path    /FU<file> import .NET assembly/module
+      /FU:asFriend<file> import .NET assembly/module as friend
+      /C don't strip comments                 /D<name>{=|#}<text> define macro
+      /E preprocess to stdout                 /EP preprocess to stdout, no #line
+      /P preprocess to file                   /Fx merge injected code to file
+      /FI<file> name forced include file      /U<name> remove predefined macro
+      /u remove all predefined macros         /I<dir> add to include search path
+      /X ignore "standard places"             
+      /PH generate #pragma file_hash when preprocessing
+      /PD print all macro definitions         
+      
+                                      -LANGUAGE-
+      
+      /std:<c++14|c++17|c++20|c++latest> C++ standard version
+          c++14 - ISO/IEC 14882:2014 (default)
+          c++17 - ISO/IEC 14882:2017
+          c++20 - ISO/IEC 14882:2020
+          c++latest - latest draft standard (feature set subject to change)
+      /std:<c11|c17|clatest> C standard version
+          c11 - ISO/IEC 9899:2011
+          c17 - ISO/IEC 9899:2018
+          clatest - latest draft standard (feature set subject to change)
+      /permissive[-] enable some nonconforming code to compile
+                     (feature set subject to change) (off by default in C++20 and later)
+      /Za disable extensions (not recommended for C++)
+      /ZW enable WinRT language extensions    /Zs syntax check only
+      /await enable resumable functions extension
+      /await:strict enable standard C++20 coroutine support with earlier language versions
+      /constexpr:depth<N>     recursion depth limit for constexpr evaluation (default: 512)
+      /constexpr:backtrace<N> show N constexpr evaluations in diagnostics (default: 10)
+      /constexpr:steps<N>     terminate constexpr evaluation after N steps (default: 1048576)
+      /Zi enable debugging information        /Z7 enable old-style debug info
+      /Zo[-] generate richer debugging information for optimized code (on by default)
+      /ZH:[MD5|SHA1|SHA_256] hash algorithm for calculation of file checksum in debug info (default: SHA_256)
+      /Zp[n] pack structs on n-byte boundary  /Zl omit default library name in .OBJ
+      /vd{0|1|2} disable/enable vtordisp      /vm<x> type of pointers to members
+      /Zc:arg1[,arg2] language conformance, where arguments can be:
+        forScope[-]           enforce Standard C++ for scoping rules
+        wchar_t[-]            wchar_t is the native type, not a typedef
+        auto[-]               enforce the new Standard C++ meaning for auto
+        trigraphs[-]          enable trigraphs (off by default)
+        rvalueCast[-]         enforce Standard C++ explicit type conversion rules
+                              (on by default in C++20 or later, implied by /permissive-)
+        strictStrings[-]      disable string-literal to [char|wchar_t]*
+                              conversion (on by default in C++20 or later, implied by /permissive-)
+        implicitNoexcept[-]   enable implicit noexcept on required functions
+        threadSafeInit[-]     enable thread-safe local static initialization
+        inline[-]             remove unreferenced function or data if it is
+                              COMDAT or has internal linkage only (off by default)
+        sizedDealloc[-]       enable C++14 global sized deallocation
+                              functions (on by default)
+        throwingNew[-]        assume operator new throws on failure (off by default)
+        referenceBinding[-]   a temporary will not bind to a non-const
+                              lvalue reference (on by default in C++20 or later, implied by /permissive-)
+        twoPhase-             disable two-phase name lookup
+        ternary[-]            enforce C++11 rules for conditional operator
+                              (on by default in C++20 or later, implied by /permissive-)
+        noexceptTypes[-]      enforce C++17 noexcept rules (on by default in C++17 or later)
+        alignedNew[-]         enable C++17 alignment of dynamically allocated objects (on by default)
+        hiddenFriend[-]       enforce Standard C++ hidden friend rules
+                              (on by default in C++20 or later, implied by /permissive-)
+        externC[-]            enforce Standard C++ rules for 'extern "C"' functions
+                              (on by default in C++20 or later, implied by /permissive-)
+        lambda[-]             better lambda support by using the newer lambda processor
+                              (on by default in C++20 or later, implied by /permissive-)
+        tlsGuards[-]          generate runtime checks for TLS variable initialization (on by default)
+        zeroSizeArrayNew[-]   call member new/delete for 0-size arrays of objects (on by default)
+        static_assert[-]      strict handling of 'static_assert' (on by default in C++20 or later,
+                              implied by /permissive-)
+        gotoScope[-]          cannot jump past the initialization of a variable (implied by /permissive-)
+        templateScope[-]      enforce Standard C++ template parameter shadowing rules
+        enumTypes[-]          enable Standard C++ underlying enum types (off by default)
+        checkGwOdr[-]         enforce Standard C++ one definition rule violations
+                              when /Gw has been enabled (off by default)
+        nrvo[-]               enable optional copy and move elision (on by default in C++20 or later,
+                              implied by /permissive- or /O2)
+        __STDC__              define __STDC__ to 1 in C
+        __cplusplus[-]        __cplusplus macro reports the supported C++ standard (off by default)
+        char8_t[-]            enable C++20 native `u8` literal support as `const char8_t`
+                              (on by default in C++20 or later)
+        externConstexpr[-]    enable external linkage for constexpr variables in C++
+                              (on by default in C++20 or later, implied by /permissive-)
+        preprocessor[-]       enable standard conforming preprocessor in C/C++
+                              (on by default in C11 or later)
+      /ZI enable Edit and Continue debug info 
+      /openmp enable OpenMP 2.0 language extensions
+      /openmp:experimental enable OpenMP 2.0 language extensions plus select OpenMP 3.0+ language extensions
+      /openmp:llvm OpenMP language extensions using LLVM runtime
+      
+                                    -MISCELLANEOUS-
+      
+      @<file> options response file           /?, /help print this help message
+      /bigobj generate extended object format /c compile only, no link
+      /FC use full pathnames in diagnostics   /H<num> max external name length
+      /J default char type is unsigned        
+      /MP[n] use up to 'n' processes for compilation
+      /nologo suppress copyright message      /showIncludes show include file names
+      /Tc<source file> compile file as .c     /Tp<source file> compile file as .cpp
+      /TC compile all files as .c             /TP compile all files as .cpp
+      /V<string> set version string           /Yc[file] create .PCH file
+      /Yd put debug info in every .OBJ        /Yl[sym] inject .PCH ref for debug lib
+      /Yu[file] use .PCH file                 /Y- disable all PCH options
+      /Zm<n> max memory alloc (% of default)  /FS force to use MSPDBSRV.EXE
+      /source-charset:<iana-name>|.nnnn set source character set
+      /execution-charset:<iana-name>|.nnnn set execution character set
+      /utf-8 set source and execution character set to UTF-8
+      /validate-charset[-] validate UTF-8 files for only legal characters
+      /fastfail[-] enable fast-fail mode      /JMC[-] enable native just my code
+      /presetPadding[-] zero initialize padding for stack based class types
+      /volatileMetadata[-] generate metadata on volatile memory accesses
+      /sourcelink [file] file containing source link information
+      
+                                      -LINKING-
+      
+      /LD Create .DLL                         /LDd Create .DLL debug library
+      /LN Create a .netmodule                 /F<num> set stack size
+      /link [linker options and libraries]    /MD link with MSVCRT.LIB
+      /MT link with LIBCMT.LIB                /MDd link with MSVCRTD.LIB debug lib
+      /MTd link with LIBCMTD.LIB debug lib    
+      
+                                    -CODE ANALYSIS-
+      
+      /analyze[-] Enable native analysis      /analyze:quiet[-] No warning to console
+      /analyze:log<name> Warnings to file     /analyze:autolog Log to *.pftlog
+      /analyze:autolog:ext<ext> Log to *.<ext>/analyze:autolog- No log file
+      /analyze:WX- Warnings not fatal         /analyze:stacksize<num> Max stack frame
+      /analyze:max_paths<num> Max paths       /analyze:only Analyze, no code gen
+      
+                                    -DIAGNOSTICS-
+      
+      /diagnostics:<args,...> controls the format of diagnostic messages:
+                   classic   - retains prior format
+                   column[-] - prints column information
+                   caret[-]  - prints column and the indicated line of source
+      /Wall enable all warnings               /w   disable all warnings
+      /W<n> set warning level (default n=1)   
+      /Wv:xx[.yy[.zzzzz]] disable warnings introduced after version xx.yy.zzzzz
+      /WX treat warnings as errors            /WL enable one line diagnostics
+      /wd<n> disable warning n                /we<n> treat warning n as an error
+      /wo<n> issue warning n once             /w<l><n> set warning level 1-4 for n
+      /external:I <path>      - location of external headers
+      /external:env:<var>     - environment variable with locations of external headers
+      /external:anglebrackets - treat all headers included via <> as external
+      /external:W<n>          - warning level for external headers
+      /external:templates[-]  - evaluate warning level across template instantiation chain
+      /sdl enable additional security features and warnings
+      /options:strict unrecognized compiler options are an error
+      
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/cryptopp-cmake-src/cmake/TargetArch.cmake:115 (try_run)"
+      - "build/_deps/cryptopp-cmake-src/cryptopp/CMakeLists.txt:194 (target_architecture)"
+      - "build/_deps/cryptopp-cmake-src/cryptopp/CMakeLists.txt:222 (check_target_architecture)"
+    directories:
+      source: "C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/savie/Desktop/skids/Solstice-master/build/CPM_modules;;C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-src/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-src/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_97626.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 12/10/2025 22:34:44.
+        
+        Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_97626.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_97626.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_97626.dir\\Debug\\cmTC_97626.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_97626.dir\\Debug\\cmTC_97626.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_97626.dir\\Debug\\cmTC_97626.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_97626.dir\\Debug\\\\" /Fd"cmTC_97626.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\arch.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_97626.dir\\Debug\\\\" /Fd"cmTC_97626.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\arch.c"
+          arch.c
+        C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\arch.c(21,1): error C1189: #error:  cmake_ARCH x86_64 [C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_97626.vcxproj]
+        Done Building Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_97626.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_97626.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\arch.c(21,1): error C1189: #error:  cmake_ARCH x86_64 [C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_97626.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.27
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/cryptopp-cmake-src/cmake/TargetArch.cmake:115 (try_run)"
+      - "build/_deps/cryptopp-cmake-src/cryptopp/CMakeLists.txt:194 (target_architecture)"
+      - "build/_deps/cryptopp-cmake-src/cryptopp/CMakeLists.txt:223 (check_target_architecture)"
+    directories:
+      source: "C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/savie/Desktop/skids/Solstice-master/build/CPM_modules;;C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-src/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-src/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ccec6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 12/10/2025 22:34:44.
+        
+        Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_ccec6.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_ccec6.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_ccec6.dir\\Debug\\cmTC_ccec6.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_ccec6.dir\\Debug\\cmTC_ccec6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_ccec6.dir\\Debug\\cmTC_ccec6.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ccec6.dir\\Debug\\\\" /Fd"cmTC_ccec6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\arch.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ccec6.dir\\Debug\\\\" /Fd"cmTC_ccec6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\arch.c"
+          arch.c
+        C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\arch.c(21,1): error C1189: #error:  cmake_ARCH x86_64 [C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_ccec6.vcxproj]
+        Done Building Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_ccec6.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_ccec6.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\arch.c(21,1): error C1189: #error:  cmake_ARCH x86_64 [C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_ccec6.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.25
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/cryptopp-cmake-src/cmake/TargetArch.cmake:115 (try_run)"
+      - "build/_deps/cryptopp-cmake-src/cryptopp/CMakeLists.txt:194 (target_architecture)"
+      - "build/_deps/cryptopp-cmake-src/cryptopp/CMakeLists.txt:224 (check_target_architecture)"
+    directories:
+      source: "C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/savie/Desktop/skids/Solstice-master/build/CPM_modules;;C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-src/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-src/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8d711.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 12/10/2025 22:34:45.
+        
+        Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_8d711.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_8d711.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_8d711.dir\\Debug\\cmTC_8d711.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_8d711.dir\\Debug\\cmTC_8d711.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_8d711.dir\\Debug\\cmTC_8d711.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8d711.dir\\Debug\\\\" /Fd"cmTC_8d711.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\arch.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8d711.dir\\Debug\\\\" /Fd"cmTC_8d711.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\arch.c"
+          arch.c
+        C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\arch.c(21,1): error C1189: #error:  cmake_ARCH x86_64 [C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_8d711.vcxproj]
+        Done Building Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_8d711.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_8d711.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\arch.c(21,1): error C1189: #error:  cmake_ARCH x86_64 [C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_8d711.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.25
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/cryptopp-cmake-src/cmake/TargetArch.cmake:115 (try_run)"
+      - "build/_deps/cryptopp-cmake-src/cryptopp/CMakeLists.txt:194 (target_architecture)"
+      - "build/_deps/cryptopp-cmake-src/cryptopp/CMakeLists.txt:225 (check_target_architecture)"
+    directories:
+      source: "C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/savie/Desktop/skids/Solstice-master/build/CPM_modules;;C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-src/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-src/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0d8ae.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 12/10/2025 22:34:46.
+        
+        Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_0d8ae.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_0d8ae.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_0d8ae.dir\\Debug\\cmTC_0d8ae.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_0d8ae.dir\\Debug\\cmTC_0d8ae.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_0d8ae.dir\\Debug\\cmTC_0d8ae.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0d8ae.dir\\Debug\\\\" /Fd"cmTC_0d8ae.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\arch.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0d8ae.dir\\Debug\\\\" /Fd"cmTC_0d8ae.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\arch.c"
+          arch.c
+        C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\arch.c(21,1): error C1189: #error:  cmake_ARCH x86_64 [C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_0d8ae.vcxproj]
+        Done Building Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_0d8ae.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_0d8ae.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\arch.c(21,1): error C1189: #error:  cmake_ARCH x86_64 [C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_0d8ae.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.25
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/cryptopp-cmake-src/cmake/TargetArch.cmake:115 (try_run)"
+      - "build/_deps/cryptopp-cmake-src/cryptopp/CMakeLists.txt:194 (target_architecture)"
+      - "build/_deps/cryptopp-cmake-src/cryptopp/CMakeLists.txt:226 (check_target_architecture)"
+    directories:
+      source: "C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/savie/Desktop/skids/Solstice-master/build/CPM_modules;;C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-src/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-src/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_705c9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 12/10/2025 22:34:46.
+        
+        Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_705c9.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_705c9.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_705c9.dir\\Debug\\cmTC_705c9.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_705c9.dir\\Debug\\cmTC_705c9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_705c9.dir\\Debug\\cmTC_705c9.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_705c9.dir\\Debug\\\\" /Fd"cmTC_705c9.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\arch.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_705c9.dir\\Debug\\\\" /Fd"cmTC_705c9.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\arch.c"
+          arch.c
+        C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\arch.c(21,1): error C1189: #error:  cmake_ARCH x86_64 [C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_705c9.vcxproj]
+        Done Building Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_705c9.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_705c9.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\arch.c(21,1): error C1189: #error:  cmake_ARCH x86_64 [C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_705c9.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.25
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/cryptopp-cmake-src/cmake/TargetArch.cmake:115 (try_run)"
+      - "build/_deps/cryptopp-cmake-src/cryptopp/CMakeLists.txt:194 (target_architecture)"
+      - "build/_deps/cryptopp-cmake-src/cryptopp/CMakeLists.txt:227 (check_target_architecture)"
+    directories:
+      source: "C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/savie/Desktop/skids/Solstice-master/build/CPM_modules;;C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-src/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-src/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cdedd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 12/10/2025 22:34:47.
+        
+        Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_cdedd.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_cdedd.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_cdedd.dir\\Debug\\cmTC_cdedd.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_cdedd.dir\\Debug\\cmTC_cdedd.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_cdedd.dir\\Debug\\cmTC_cdedd.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cdedd.dir\\Debug\\\\" /Fd"cmTC_cdedd.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\arch.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cdedd.dir\\Debug\\\\" /Fd"cmTC_cdedd.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\arch.c"
+          arch.c
+        C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\arch.c(21,1): error C1189: #error:  cmake_ARCH x86_64 [C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_cdedd.vcxproj]
+        Done Building Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_cdedd.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_cdedd.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\arch.c(21,1): error C1189: #error:  cmake_ARCH x86_64 [C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_cdedd.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.26
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/cryptopp-cmake-src/cmake/TargetArch.cmake:115 (try_run)"
+      - "build/_deps/cryptopp-cmake-src/cryptopp/CMakeLists.txt:194 (target_architecture)"
+      - "build/_deps/cryptopp-cmake-src/cryptopp/CMakeLists.txt:228 (check_target_architecture)"
+    directories:
+      source: "C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/savie/Desktop/skids/Solstice-master/build/CPM_modules;;C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-src/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-src/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_be6be.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 12/10/2025 22:34:47.
+        
+        Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_be6be.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_be6be.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_be6be.dir\\Debug\\cmTC_be6be.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_be6be.dir\\Debug\\cmTC_be6be.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_be6be.dir\\Debug\\cmTC_be6be.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_be6be.dir\\Debug\\\\" /Fd"cmTC_be6be.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\arch.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_be6be.dir\\Debug\\\\" /Fd"cmTC_be6be.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\arch.c"
+          arch.c
+        C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\arch.c(21,1): error C1189: #error:  cmake_ARCH x86_64 [C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_be6be.vcxproj]
+        Done Building Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_be6be.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_be6be.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\arch.c(21,1): error C1189: #error:  cmake_ARCH x86_64 [C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_be6be.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.25
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/cryptopp-cmake-src/cmake/TargetArch.cmake:115 (try_run)"
+      - "build/_deps/cryptopp-cmake-src/cryptopp/CMakeLists.txt:194 (target_architecture)"
+      - "build/_deps/cryptopp-cmake-src/cryptopp/CMakeLists.txt:229 (check_target_architecture)"
+    directories:
+      source: "C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/savie/Desktop/skids/Solstice-master/build/CPM_modules;;C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-src/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-src/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fba4b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 12/10/2025 22:34:48.
+        
+        Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_fba4b.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_fba4b.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_fba4b.dir\\Debug\\cmTC_fba4b.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_fba4b.dir\\Debug\\cmTC_fba4b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_fba4b.dir\\Debug\\cmTC_fba4b.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fba4b.dir\\Debug\\\\" /Fd"cmTC_fba4b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\arch.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fba4b.dir\\Debug\\\\" /Fd"cmTC_fba4b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\arch.c"
+          arch.c
+        C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\arch.c(21,1): error C1189: #error:  cmake_ARCH x86_64 [C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_fba4b.vcxproj]
+        Done Building Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_fba4b.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_fba4b.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\arch.c(21,1): error C1189: #error:  cmake_ARCH x86_64 [C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_fba4b.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.25
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/cryptopp-cmake-src/cmake/TargetArch.cmake:115 (try_run)"
+      - "build/_deps/cryptopp-cmake-src/cryptopp/CMakeLists.txt:194 (target_architecture)"
+      - "build/_deps/cryptopp-cmake-src/cryptopp/CMakeLists.txt:230 (check_target_architecture)"
+    directories:
+      source: "C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/savie/Desktop/skids/Solstice-master/build/CPM_modules;;C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-src/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-src/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5242f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 12/10/2025 22:34:48.
+        
+        Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_5242f.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_5242f.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_5242f.dir\\Debug\\cmTC_5242f.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_5242f.dir\\Debug\\cmTC_5242f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_5242f.dir\\Debug\\cmTC_5242f.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5242f.dir\\Debug\\\\" /Fd"cmTC_5242f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\arch.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5242f.dir\\Debug\\\\" /Fd"cmTC_5242f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\arch.c"
+          arch.c
+        C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\arch.c(21,1): error C1189: #error:  cmake_ARCH x86_64 [C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_5242f.vcxproj]
+        Done Building Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_5242f.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_5242f.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\arch.c(21,1): error C1189: #error:  cmake_ARCH x86_64 [C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeTmp\\cmTC_5242f.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.25
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "build/_deps/cryptopp-cmake-src/cryptopp/CMakeLists.txt:339 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include winapifamily.h"
+    directories:
+      source: "C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-6iqk18"
+      binary: "C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-6iqk18"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/savie/Desktop/skids/Solstice-master/build/CPM_modules;;C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-src/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/cryptopp-cmake-src/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "HAVE_WINAPIFAMILY_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-6iqk18'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7dc1d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 12/10/2025 22:34:49.
+        
+        Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6iqk18\\cmTC_7dc1d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_7dc1d.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6iqk18\\Debug\\".
+          Creating directory "cmTC_7dc1d.dir\\Debug\\cmTC_7dc1d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_7dc1d.dir\\Debug\\cmTC_7dc1d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_7dc1d.dir\\Debug\\cmTC_7dc1d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7dc1d.dir\\Debug\\\\" /Fd"cmTC_7dc1d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6iqk18\\CheckIncludeFile.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7dc1d.dir\\Debug\\\\" /Fd"cmTC_7dc1d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6iqk18\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6iqk18\\Debug\\cmTC_7dc1d.exe" /INCREMENTAL /ILK:"cmTC_7dc1d.dir\\Debug\\cmTC_7dc1d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-6iqk18/Debug/cmTC_7dc1d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-6iqk18/Debug/cmTC_7dc1d.lib" /MACHINE:X64  /machine:x64 cmTC_7dc1d.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_7dc1d.vcxproj -> C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6iqk18\\Debug\\cmTC_7dc1d.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_7dc1d.dir\\Debug\\cmTC_7dc1d.tlog\\unsuccessfulbuild".
+          Touching "cmTC_7dc1d.dir\\Debug\\cmTC_7dc1d.tlog\\cmTC_7dc1d.lastbuildstate".
+        Done Building Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6iqk18\\cmTC_7dc1d.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.44
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "build/_deps/cryptopp-cmake-src/cryptopp/CMakeLists.txt:1268 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      Microsoft (R) Macro Assembler (x64) Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : --version
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "build/_deps/cryptopp-cmake-src/cryptopp/CMakeLists.txt:1268 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is AppleClang using "--version" did not match "(Apple (clang|LLVM) version)":
+      Microsoft (R) Macro Assembler (x64) Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : --version
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "build/_deps/cryptopp-cmake-src/cryptopp/CMakeLists.txt:1268 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is Clang using "--version" did not match "(clang version)":
+      Microsoft (R) Macro Assembler (x64) Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : --version
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "build/_deps/cryptopp-cmake-src/cryptopp/CMakeLists.txt:1268 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is ARMClang using "--version" did not match "armclang":
+      Microsoft (R) Macro Assembler (x64) Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : --version
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "build/_deps/cryptopp-cmake-src/cryptopp/CMakeLists.txt:1268 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is OrangeC using "--version" did not match "occ \\(OrangeC\\) Version":
+      Microsoft (R) Macro Assembler (x64) Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : --version
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "build/_deps/cryptopp-cmake-src/cryptopp/CMakeLists.txt:1268 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is HP using "-V" did not match "HP C":
+      Microsoft (R) Macro Assembler (x64) Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : -V
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "build/_deps/cryptopp-cmake-src/cryptopp/CMakeLists.txt:1268 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is Intel using "--version" did not match "(ICC)":
+      Microsoft (R) Macro Assembler (x64) Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : --version
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "build/_deps/cryptopp-cmake-src/cryptopp/CMakeLists.txt:1268 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is IntelLLVM using "--version" did not match "(Intel[^
+      ]+oneAPI)":
+      Microsoft (R) Macro Assembler (x64) Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : --version
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "build/_deps/cryptopp-cmake-src/cryptopp/CMakeLists.txt:1268 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is SunPro using "-V" did not match "Sun C":
+      Microsoft (R) Macro Assembler (x64) Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : -V
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "build/_deps/cryptopp-cmake-src/cryptopp/CMakeLists.txt:1268 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is XL using "-qversion" did not match "XL C":
+      Microsoft (R) Macro Assembler (x64) Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : -qversion
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1230 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "build/_deps/cryptopp-cmake-src/cryptopp/CMakeLists.txt:1268 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is MSVC using "-?" matched "Microsoft":
+      Microsoft (R) Macro Assembler (x64) Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+              ML64 [ /options ] filelist [ /link linkoptions ]
+      
+      /Bl<linker> Use alternate linker          /Sf Generate first pass listing
+      /c Assemble without linking               /Sl<width> Set line width
+      /Cp Preserve case of user identifiers     /Sn Suppress symbol-table listing
+      /Cx Preserve case in publics, externs     /Sp<length> Set page length
+      /D<name>[=text] Define text macro         /Ss<string> Set subtitle
+      /EP Output preprocessed listing to stdout /St<string> Set title
+      /F <hex> Set stack size (bytes)           /Sx List false conditionals
+      /Fe<file> Name executable                 /Ta<file> Assemble non-.ASM file
+      /Fl[file] Generate listing                /w Same as /W0 /WX
+      /Fm[file] Generate map                    /WX Treat warnings as errors
+      /Fo<file> Name object file                /W<number> Set warning level
+      /Fr[file] Generate limited browser info   /X Ignore INCLUDE environment path
+      /FR[file] Generate full browser info      /Zd Add line number debug info
+      /I<name> Add include path                 /Zf Make all symbols public
+      /link <linker options and libraries>      /Zi Add symbolic debug info
+      /nologo Suppress copyright message        /Zp[n] Set structure alignment
+      /Sa Maximize source listing               /Zs Perform syntax check only
+      /ZH:MD5 Use MD5 for checksum in debug info
+      /ZH:SHA_256 Use SHA256 for checksum in debug info (default)
+      /Gy[-] separate functions for linker      /quiet Suppress 'Assembling' message
+      /errorReport:<option> Deprecated. Report internal assembler errors to Microsoft
+          none - do not send report
+          prompt - prompt to immediately send report
+          queue - at next admin logon, prompt to send report
+          send - send report automatically
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindOpenMP.cmake:250 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:105 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-p11kbu"
+      binary: "C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-p11kbu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/savie/Desktop/skids/Solstice-master/build/CPM_modules;"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-p11kbu'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7083c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 12/10/2025 22:34:50.
+        
+        Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p11kbu\\cmTC_7083c.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_7083c.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p11kbu\\Debug\\".
+          Creating directory "cmTC_7083c.dir\\Debug\\cmTC_7083c.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_7083c.dir\\Debug\\cmTC_7083c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_7083c.dir\\Debug\\cmTC_7083c.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_7083c.dir\\Debug\\\\" /Fd"cmTC_7083c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p11kbu\\OpenMPTryFlag.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_7083c.dir\\Debug\\\\" /Fd"cmTC_7083c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p11kbu\\OpenMPTryFlag.c"
+          OpenMPTryFlag.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p11kbu\\Debug\\cmTC_7083c.exe" /INCREMENTAL /ILK:"cmTC_7083c.dir\\Debug\\cmTC_7083c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-p11kbu/Debug/cmTC_7083c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-p11kbu/Debug/cmTC_7083c.lib" /MACHINE:X64  /machine:x64 cmTC_7083c.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_7083c.vcxproj -> C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p11kbu\\Debug\\cmTC_7083c.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_7083c.dir\\Debug\\cmTC_7083c.tlog\\unsuccessfulbuild".
+          Touching "cmTC_7083c.dir\\Debug\\cmTC_7083c.tlog\\cmTC_7083c.lastbuildstate".
+        Done Building Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p11kbu\\cmTC_7083c.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.47
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindOpenMP.cmake:250 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:105 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-9w3ivb"
+      binary: "C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-9w3ivb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/savie/Desktop/skids/Solstice-master/build/CPM_modules;"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-9w3ivb'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9477e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 12/10/2025 22:34:50.
+        
+        Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9w3ivb\\cmTC_9477e.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_9477e.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9w3ivb\\Debug\\".
+          Creating directory "cmTC_9477e.dir\\Debug\\cmTC_9477e.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_9477e.dir\\Debug\\cmTC_9477e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_9477e.dir\\Debug\\cmTC_9477e.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_9477e.dir\\Debug\\\\" /Fd"cmTC_9477e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9w3ivb\\OpenMPTryFlag.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_9477e.dir\\Debug\\\\" /Fd"cmTC_9477e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9w3ivb\\OpenMPTryFlag.cpp"
+          OpenMPTryFlag.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9w3ivb\\Debug\\cmTC_9477e.exe" /INCREMENTAL /ILK:"cmTC_9477e.dir\\Debug\\cmTC_9477e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-9w3ivb/Debug/cmTC_9477e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-9w3ivb/Debug/cmTC_9477e.lib" /MACHINE:X64  /machine:x64 cmTC_9477e.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_9477e.vcxproj -> C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9w3ivb\\Debug\\cmTC_9477e.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_9477e.dir\\Debug\\cmTC_9477e.tlog\\unsuccessfulbuild".
+          Touching "cmTC_9477e.dir\\Debug\\cmTC_9477e.tlog\\cmTC_9477e.lastbuildstate".
+        Done Building Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9w3ivb\\cmTC_9477e.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.45
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindOpenMP.cmake:491 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindOpenMP.cmake:631 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:105 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-6hgq9d"
+      binary: "C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-6hgq9d"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/savie/Desktop/skids/Solstice-master/build/CPM_modules;"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-6hgq9d'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6bb1f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 12/10/2025 22:34:51.
+        
+        Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6hgq9d\\cmTC_6bb1f.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_6bb1f.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6hgq9d\\Debug\\".
+          Creating directory "cmTC_6bb1f.dir\\Debug\\cmTC_6bb1f.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_6bb1f.dir\\Debug\\cmTC_6bb1f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_6bb1f.dir\\Debug\\cmTC_6bb1f.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_6bb1f.dir\\Debug\\\\" /Fd"cmTC_6bb1f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6hgq9d\\OpenMPCheckVersion.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_6bb1f.dir\\Debug\\\\" /Fd"cmTC_6bb1f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6hgq9d\\OpenMPCheckVersion.c"
+          OpenMPCheckVersion.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6hgq9d\\Debug\\cmTC_6bb1f.exe" /INCREMENTAL /ILK:"cmTC_6bb1f.dir\\Debug\\cmTC_6bb1f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-6hgq9d/Debug/cmTC_6bb1f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-6hgq9d/Debug/cmTC_6bb1f.lib" /MACHINE:X64  /machine:x64 cmTC_6bb1f.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_6bb1f.vcxproj -> C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6hgq9d\\Debug\\cmTC_6bb1f.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_6bb1f.dir\\Debug\\cmTC_6bb1f.tlog\\unsuccessfulbuild".
+          Touching "cmTC_6bb1f.dir\\Debug\\cmTC_6bb1f.tlog\\cmTC_6bb1f.lastbuildstate".
+        Done Building Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6hgq9d\\cmTC_6bb1f.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.44
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindOpenMP.cmake:491 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindOpenMP.cmake:631 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:105 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-l8jrpd"
+      binary: "C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-l8jrpd"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/savie/Desktop/skids/Solstice-master/build/CPM_modules;"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-l8jrpd'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ab8c7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 12/10/2025 22:34:52.
+        
+        Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l8jrpd\\cmTC_ab8c7.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_ab8c7.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l8jrpd\\Debug\\".
+          Creating directory "cmTC_ab8c7.dir\\Debug\\cmTC_ab8c7.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_ab8c7.dir\\Debug\\cmTC_ab8c7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_ab8c7.dir\\Debug\\cmTC_ab8c7.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_ab8c7.dir\\Debug\\\\" /Fd"cmTC_ab8c7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l8jrpd\\OpenMPCheckVersion.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_ab8c7.dir\\Debug\\\\" /Fd"cmTC_ab8c7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l8jrpd\\OpenMPCheckVersion.cpp"
+          OpenMPCheckVersion.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l8jrpd\\Debug\\cmTC_ab8c7.exe" /INCREMENTAL /ILK:"cmTC_ab8c7.dir\\Debug\\cmTC_ab8c7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-l8jrpd/Debug/cmTC_ab8c7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/savie/Desktop/skids/Solstice-master/build/CMakeFiles/CMakeScratch/TryCompile-l8jrpd/Debug/cmTC_ab8c7.lib" /MACHINE:X64  /machine:x64 cmTC_ab8c7.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_ab8c7.vcxproj -> C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l8jrpd\\Debug\\cmTC_ab8c7.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_ab8c7.dir\\Debug\\cmTC_ab8c7.tlog\\unsuccessfulbuild".
+          Touching "cmTC_ab8c7.dir\\Debug\\cmTC_ab8c7.tlog\\cmTC_ab8c7.lastbuildstate".
+        Done Building Project "C:\\Users\\savie\\Desktop\\skids\\Solstice-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l8jrpd\\cmTC_ab8c7.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.45
+        
+      exitCode: 0
+...

@@ -1,0 +1,14 @@
+# Target labels
+ directxtk-populate
+# Source files and their labels
+C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-subbuild/CMakeFiles/directxtk-populate
+C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-subbuild/CMakeFiles/96b3eb442cc4f3b3317908ddaa34fc0b/directxtk-populate.rule
+C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-subbuild/CMakeFiles/49e583d43a4108f06b75dc11aa1c94d5/directxtk-populate-complete.rule
+C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-subbuild/CMakeFiles/63cba6318866d0375471d6049f9f9213/directxtk-populate-build.rule
+C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-subbuild/CMakeFiles/63cba6318866d0375471d6049f9f9213/directxtk-populate-configure.rule
+C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-subbuild/CMakeFiles/63cba6318866d0375471d6049f9f9213/directxtk-populate-download.rule
+C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-subbuild/CMakeFiles/63cba6318866d0375471d6049f9f9213/directxtk-populate-install.rule
+C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-subbuild/CMakeFiles/63cba6318866d0375471d6049f9f9213/directxtk-populate-mkdir.rule
+C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-subbuild/CMakeFiles/63cba6318866d0375471d6049f9f9213/directxtk-populate-patch.rule
+C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-subbuild/CMakeFiles/63cba6318866d0375471d6049f9f9213/directxtk-populate-test.rule
+C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/directxtk-subbuild/CMakeFiles/63cba6318866d0375471d6049f9f9213/directxtk-populate-update.rule

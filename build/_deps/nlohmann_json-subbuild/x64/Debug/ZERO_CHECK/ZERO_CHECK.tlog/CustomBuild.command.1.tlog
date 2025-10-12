@@ -1,0 +1,10 @@
+^C:\USERS\SAVIE\DESKTOP\SKIDS\SOLSTICE-MASTER\BUILD\_DEPS\NLOHMANN_JSON-SUBBUILD\CMAKEFILES\FF3F4449585D854E68095A22D8F139A3\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/savie/Desktop/skids/Solstice-master/build/_deps/nlohmann_json-subbuild -BC:/Users/savie/Desktop/skids/Solstice-master/build/_deps/nlohmann_json-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/nlohmann_json-subbuild/nlohmann_json-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

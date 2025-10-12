@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\savie\Desktop\skids\Solstice-master\build\_deps\nlohmann_json-subbuild\CMakeFiles\ff3f4449585d854e68095a22d8f139a3\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CC0CD784-87EB-384A-8ACE-8394F35D6588}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/magic_enum-subbuild/CMakeFiles/magic_enum-populate"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/magic_enum-subbuild/CMakeFiles/aea8a6e51785c2065fc326db9f5200ab/magic_enum-populate.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/magic_enum-subbuild/CMakeFiles/db836a109834316af242c028f3a2f525/magic_enum-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/magic_enum-subbuild/CMakeFiles/922a662ce9a155a403b3c2e4c976f4ff/magic_enum-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/magic_enum-subbuild/CMakeFiles/922a662ce9a155a403b3c2e4c976f4ff/magic_enum-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/magic_enum-subbuild/CMakeFiles/922a662ce9a155a403b3c2e4c976f4ff/magic_enum-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/magic_enum-subbuild/CMakeFiles/922a662ce9a155a403b3c2e4c976f4ff/magic_enum-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/magic_enum-subbuild/CMakeFiles/922a662ce9a155a403b3c2e4c976f4ff/magic_enum-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/magic_enum-subbuild/CMakeFiles/922a662ce9a155a403b3c2e4c976f4ff/magic_enum-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/magic_enum-subbuild/CMakeFiles/922a662ce9a155a403b3c2e4c976f4ff/magic_enum-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/savie/Desktop/skids/Solstice-master/build/_deps/magic_enum-subbuild/CMakeFiles/922a662ce9a155a403b3c2e4c976f4ff/magic_enum-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"magic_enum-populate"
+		],
+		"name" : "magic_enum-populate"
+	}
+}
