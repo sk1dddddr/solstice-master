@@ -2,7 +2,7 @@
 // Created by alteik on 04/09/2024.
 //
 
-#include "AutoClicker.hpp"
+#include "muiltyhitter.hpp"
 #include <Features/Events/BaseTickEvent.hpp>
 #include <Utils/GameUtils/ActorUtils.hpp>
 #include <SDK/Minecraft/Actor/Actor.hpp>
